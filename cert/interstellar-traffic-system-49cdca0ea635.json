@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "interstellar-traffic-system",
+  "private_key_id": "49cdca0ea635cf46c283e39fd25552db8f66f5e0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDN5/W/WLAFqQRv\ni30jfMPpmaLIrKTkxpK70G6/w9Vh0GYWpttGMOuVyRlmJ0eOMPmap7GFbrJMgWoL\n8btPdel4iDZis1bhQvLbcF2iToPmxsnU3HGQWiY5K6b390UiOoSgqvYQ4cFFgUjF\nxPr2/vLRphMSlEFkhzctwbv2KybOmCx0jhU+Z4/TAKsSRvIw2gTvRSr6ixTWtPFE\niLM8oMtYhCthGvUdJaeAnQQtG7R7qEiI8/WhUh577KL1GGnUO97cuDzwVXcmfpGw\nT93Sss7IZMvzN7Law/MPElrXCisiRcRSKPJC/M+gRTzkm8KH9q8ldW0Rx2F/htQY\nujX+lFFBAgMBAAECggEAGiir+eFEi5OLcrhf75A8O4M/QQtd74qivaWfTFGO3Fxj\ne+E63lH8vAzOY0H+PzxNma5QSUlk8X9Hf7j4OQIb5So47pUmJnwg6mv+GU6sRzde\nEOLospQhYwX+smYBrHWOv/K4TDDCIxhnrGh4EcUWCDh3F9cp76GWCwQf4whcZ8aH\nFzohyT9eicyGyor1AW82DzjLsT7HgW/eicmLa1bYMc4UaBLYPoBIlNQxxPKalL+r\nFHXYxgsFmKNcssb/jJX2MynjEE7Adm65MnzHXjCVyAldWIfjpgpen1umgWwTMDrj\nm2sDnjky0uYzo0c0Y72gd07n3/QJnymhO7PBPlfI+QKBgQDpTHpv/FosOM+XACaq\nqHZwr0AaG0uVm9el6lFzMH2MyMrrCpNNuACN3lLq1Xs2t0K8+dBQ+bXf1GTemVXR\nvNZl6RFR/4I3xIqcV/sozqg7dCjCOQkDaBynPEONimRaiPFc/M9Pouc+iKBhJiPP\nzG0oeF+/Te5GUuhb1m84MZtmywKBgQDh8R/5hib6KlzYFMcwNucRr0w/e7xuEQGT\nnllH5DhKKfFEFZ15eqbRxk0YBAuBakzUbPtD3cr9yeBHB3YGHf3E7IQa5nA358oH\n4Qh1dmv7qlpAJxypfC89QfsU9/PVBGN5hrX3sfQ0au/dW94ZoRgf5ASrhltNYMn+\n1CBojSvaowKBgQDbJDN+LZSmJVcZh9LKSyO2BWg5HZqKFbEi8E9B3DKSo6m3zl8/\nia87k7JfU9hBNTNDP4UmCumELoXxcibitHbPk3XpiBBRQhTRdvM9CaGM9zex+NE2\nmf0QOdNaiLxrLmdJ6U7yhxqf6sZ7es/4yRVgBnIpyJIhDI+mdG5UYoSOsQKBgCC7\nI5ysOH1JIcYTzH9JlNPVB0CzFisDv6y45coqX5Uu2kq4ruVoRT5iccym2VvYIGUt\nnIDKYpu9YQYpKIneUmLyuHiFJYCTzYqyqN0LWL1OgmCEyfwrh1RieJMjEGmthxOV\n1kqZtvzY+QKiSlyAH9SO3bZTcmqVOO33oPJEcTPtAoGBAMB11k/FTs2hMLLNv3hx\nUQOmcvTMDvEQakyjgCzx6tfDXpqJcgs1NASifIS70pMchCTDvhLatKOOlTppubXP\njKFPcw/6wRnKH/jnzha1A+wPeWVUU7MvWAsXaVo4SYNGy9krvXs8GN7NM4/VqXN4\nUGDl9bJ5VXeiNOfbuzmGVOBT\n-----END PRIVATE KEY-----\n",
+  "client_email": "interstellar-traffic-system@appspot.gserviceaccount.com",
+  "client_id": "107141545593209831034",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/interstellar-traffic-system%40appspot.gserviceaccount.com"
+}
