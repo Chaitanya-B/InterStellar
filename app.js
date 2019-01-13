@@ -40,5 +40,9 @@ dbHandle.getRoutes().then( snapshot => {
   });
 });
 
+ app.post("/shortestRoute",function(req,res) {
+  
+ });
+
 
 
