@@ -1,4 +1,4 @@
 var fireStoreDB = require('./db.js');
 
-//fireStoreDB.addPlanetsRoutesData();
+fireStoreDB.addPlanetsRoutesData();
 //fireStoreDB.getPlanets();

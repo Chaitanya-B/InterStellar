@@ -2,12 +2,11 @@
    Responsibility of this function is to give all the possible routes from source to destination with or without 
    traffic parameter
 */
-var globalRoutes = require('./data/Routes.js');
+//var globalRoutes = require('./data/Routes.js');
 
-console.log('Possible routes from A to B is',getPossibleRoutes("A","KK",globalRoutes.getRoutes(),false));
 
-function getPossibleRoutes(source,destination,routes,traffic) {
-// console.log('Params : ',source,destination,routes,traffic);
+exports.getPossibleRoutes = function(source,destination,routes,traffic) {
+console.log('Params getPossibleRoutes : ',source,destination,routes,traffic);
 
  let possibleRoutes = [];
  let workingRoutes = [{ route : [source], distance : 0 }];
@@ -28,21 +27,37 @@ function getPossibleRoutes(source,destination,routes,traffic) {
    if(currentPlanetStation && !checkIfEndIsReached(routes,currentPlanetStation) && (currentPlanetStation!==destination)) {
   neighBouringRoutes = getNeighbouringRoutes(routes,currentPlanetStation);
   neighBouringRoutes.forEach(route => {
-  	if(!isPlanetAlreadyVisited(currentRoute.route,route.destination)) {
-  	let newRoute = JSON.parse(JSON.stringify(currentRoute));
-  	newRoute.route.push(route.destination);
-  	newRoute.distance = traffic ? (newRoute.distance + route.distance + route.traffic) : (newRoute.distance + route.distance);
-  	workingRoutes.push(newRoute);	
+    if(!isPlanetAlreadyVisited(currentRoute.route,route.destination)) {
+    let newRoute = JSON.parse(JSON.stringify(currentRoute));
+    newRoute.route.push(route.destination);
+    newRoute.distance = traffic ? (newRoute.distance + route.distance + route.traffic) : (newRoute.distance + route.distance);
+    workingRoutes.push(newRoute); 
    }
   });
  } else if(currentPlanetStation && (currentPlanetStation === destination)) {
- 	// console.log('currentPlanetStation',currentPlanetStation);
- 	possibleRoutes.push(currentRoute);
+  // console.log('currentPlanetStation',currentPlanetStation);
+  possibleRoutes.push(currentRoute);
   }
  }
 
  return possibleRoutes;
 }
+
+
+exports.getShortestRoute =function(source,destination,routes,traffic) {
+	console.log('Params getShortestRoute : ',source,destination,routes,traffic);
+	let possibleRoutes = exports.getPossibleRoutes(source,destination,routes,traffic);
+	console.log('Before sort',possibleRoutes);
+	possibleRoutes.sort((route1,route2) => route1.distance - route2.distance);
+	console.log('After sort',possibleRoutes);
+	return possibleRoutes[0];
+}
+
+//console.log('Possible routes from A to B is',getShortestRoute("A","Y",globalRoutes.getRoutes(),false));
+
+
+
+
 
 function getNeighbouringRoutes(routes,planetId) {
  let neighBouringRoutes = [];
