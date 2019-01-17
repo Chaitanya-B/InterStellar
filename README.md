@@ -10,7 +10,7 @@ Run below command to start nodeJS server at port 3000 before serving Angular UI 
 2. Data given in the problem statement is stored in data directory as a JSON object which is persisted in Firestore Cloud upon running main.js
 3. Please DONOT RUN node main.js again as it may overwrite the already existing data in FireStore DB. 
 
-##Complete Solution available at: 
+## Complete Solution available at: 
 
 https://github.com/Chaitanya-B/Interstellar_UI
 https://github.com/Chaitanya-B/InterStellar
@@ -29,7 +29,6 @@ Endpoint	Method	Description	Request Body
 /shortestRoute	POST	Shortest route from A to B with distance	{"source":"A","destination":"Z","traffic":true}
 
 
-## For Request and Response please refer to excel sheet attached in the email.
 ## Please refer to screenshots in the attachments to see the UI.
 
 ## Angular 7 and Bootstrap in UI: 
